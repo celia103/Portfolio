@@ -1,0 +1,82 @@
+[
+		{
+		"id": 1,
+		"title": "CSS Challenge - in progress",
+		"description": "The task is to generate 100 ideas, convert it into HTML, and design its styling with CSS, following a straightforward yet powerful routine outlined in https://100dayscss.com.",
+		"video": "./assets/video/css100.mp4",
+		"codePen": "https://codepen.io/collection/YydKVw"
+	},
+	{
+		"id": 2,
+		"title": "Team Profiler JS",
+		"description": "This app simplifies creating HTML pages for team member info through a command line. Users input details for Managers, Engineers, and Interns, and the resulting page, styled with Bootstrap, offers a light/dark theme switcher.",
+		"screenshot": "./assets/images/W12-TeamProfilerJS.png",
+		"deployLink": "https://celia103.github.io/W12-TeamProfilerJS",
+		"repoLink": "https://github.com/celia103/W12-TeamProfilerJS"
+	},
+	{
+		"id": 3,
+		"title": "Dynamic README Generator",
+		"description": "The Dynamic README Generator is a tool designed to simplify the creation of thorough and well-organized README files for software projects.",
+		"screenshot": "./assets/images/W11-Dynamic-README-Generator.png",
+		"deployLink": "https://celia103.github.io/W11-Dynamic-README-Generator",
+		"repoLink": "https://github.com/celia103/W11-Dynamic-README-Generator"
+	},
+	{
+		"id": 4,
+		"title": "Group Project - Dish Discovery",
+		"description": "Dish Discovery Project is a group-made app that makes finding and saving recipes easy. It offers a simple interface for exploring new recipes and tutorial videos. The project also helped the team learn more about web development, API integration, and user experience design.",
+		"screenshot": "./assets/images/dish-discovery.png",
+		"deployLink": "https://tuupuu.github.io/dish-discovery",
+		"repoLink": "https://github.com/TuuPuu/dish-discovery"
+	},
+    {
+		"id": 5,
+		"title": "Simple Weather Dashboard",
+		"description": "The Weather Dashboard is a tool for tracking weather forecasts. It uses the OpenWeatherMap API to fetch weather data based on user input. Users can quickly access the latest weather information and forecasts for different locations. The application also includes a built-in search history that is stored in local storage.",
+		"screenshot": "./assets/images/W8-SimpleWeatherDashboard.png",
+		"deployLink": "https://celia103.github.io/W8-SimpleWeatherDashboard",
+		"repoLink": "https://github.com/celia103/W8-SimpleWeatherDashboard"
+	},
+    {
+		"id": 6,
+		"title": "Timed Quiz",
+		"description": "The application is a coding quiz that challenges users with questions on HTML, CSS, and JavaScript. Each question has a time limit, and users receive immediate feedback and a final score based on their answers. It also allows users to submit their scores for inclusion on a high-score list that is stored locally.",
+		"screenshot": "./assets/images/W6-Timed-Quiz.png",
+		"deployLink": "https://celia103.github.io/W6-Timed-Quiz",
+		"repoLink": "https://github.com/celia103/W6-Timed-Quiz"
+	},
+	{
+		"id": 7,
+		"title": "Password Generator",
+		"description": "The application that generates a random password. The application should allow users to select criteria for the password.",
+		"screenshot": "./assets/images/W5-password-Generator.png",
+		"deployLink": "https://celia103.github.io/W5-password-Generator",
+		"repoLink": "https://github.com/celia103/W5-password-Generator"
+	},
+	{
+		"id": 8,
+		"title": "Console Finances",
+		"description": "This simple application introduces fundamental programming concepts using the JavaScript language. Given a financial dataset, do financial calculations and interactions via the console.",
+		"screenshot": "./assets/images/W4-console-finances.png",
+		"deployLink": "https://celia103.github.io/Console-Finances",
+		"repoLink": "https://github.com/celia103/Console-Finances"
+	},
+	{
+		"id": 9,
+		"title": "Bootstrap Portfolio",
+		"description": "This project demonstrates the creation of a visually attractive and responsive portfolio layout utilizing the Bootstrap CSS Framework.",
+		"screenshot": "./assets/images/LSTART.png",
+		"deployLink": "https://celia103.github.io/LSTART-Bootstrap-Portfolio",
+		"repoLink": "https://github.com/celia103/LSTART-Bootstrap-Portfolio"
+	},
+	{
+		"id": 10,
+		"title": "CSS Snippet Cheatsheet",
+		"description": "This project is a simple semantic HTML web page style with CSS. It aims to to practice and showcase CSS abilities, including layout design, user-select and transition property, linear-gradient function, and responsive design.",
+		"screenshot": "./assets/images/CSS-Snippet-Cheatsheet.png",
+		"deployLink": "https://celia103.github.io/CSS-Snippet-Cheatsheet",
+		"repoLink": "https://github.com/celia103/CSS-Snippet-Cheatsheet"
+	}
+
+]

@@ -1,0 +1,122 @@
+/* design.css */
+/* Card style */
+.design-card {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.card-img-container {
+	flex: 1;
+	overflow: hidden;
+	height: 100%;
+}
+
+.card-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.card-img-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.overlay-content {
+	text-align: center;
+}
+
+.overlay-content p {
+	margin: 0;
+}
+
+.design-card:hover .card-img-overlay {
+	opacity: 1;
+}
+
+.design-card:hover .card-img {
+	filter: brightness(0.5);
+}
+
+.card-title {
+	font-weight: 700;
+}
+
+.card-text {
+	font-weight: 400;
+}
+
+/* Lightbox style*/
+/* fix react lightbox rendering issue */
+/* .custom-lightbox {
+	pointer-events: none;
+}
+
+.custom-lightbox .lightbox-content {
+	pointer-events: auto;
+} */
+
+/* fix react ligthbox issue in small screens*/
+.ReactModal__Body--open {
+	.ril__loadingContainer__icon {
+		background-size: contain;
+		* {
+			display: none;
+		}
+	}
+	.ril__outer {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+	.ril__toolbar {
+		background-color: transparent;
+	}
+	.ril-toolbar-right .ril__toolbarItem {
+		display: none;
+		border-radius: 100%;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		line-height: 2.2em;
+		margin-top: 20px;
+
+		@media only screen and (max-width: 1023px) {
+			width: 40px;
+			height: 40px;
+			line-height: 1.8em;
+		}
+		&:last-child {
+			display: inline-block;
+		}
+	}
+
+.ril-image-next,
+.ril__imageNext {
+		@media only screen and (max-width: 1023px) {
+			transform: 100%;
+			width: auto;
+		}
+	}
+	.ril-image-current {
+			@media only screen and (max-width: 1023px) {
+				transform: 0%;
+				width: auto;
+			}
+		}
+		.ril-image-prev,
+		.ril__imagePrev {
+				@media only screen and (max-width: 1023px) {
+					transform: -100%;
+					width: auto;
+				}
+			}
+}

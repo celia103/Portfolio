@@ -1,0 +1,54 @@
+[
+  {
+  "id": 1,
+  "title": "Clouds",
+  "description": "A series of wallpapers designed with clouds",
+  "work": "src/assets/images/work-1.jpg"
+
+},
+{
+  "id": 2,
+  "title": "A little boy",
+  "description": "Illustration (Digital Drawing)",
+  "work": "src/assets/images/work-2.jpg"
+
+},
+{
+  "id": 3,
+  "title": "AFCD Accredited Fish Farm Scheme",
+  "description": "Magazine Advertisement Design",
+  "work": "src/assets/images/work-3.jpg"
+}
+,
+{
+  "id": 4,
+  "title": "Freeze Dried Fruit Snack",
+  "description": "Package Design",
+  "work": "src/assets/images/work-4.jpg"
+
+},
+{
+  "id": 5,
+  "title": "Hong Kong Foodways",
+  "description": "Book Cover Design",
+  "work": "src/assets/images/work-5.jpg"
+},
+{
+  "id": 6,
+  "title": "Little Goose",
+  "description": "Children's Book Illustration (Digital Drawing)",
+  "work": "src/assets/images/work-6.jpg"
+},
+{
+  "id": 7,
+  "title": "Simple English Series",
+  "description": "Children's Book series Illustration (Digital Drawing)",
+  "work": "src/assets/images/work-7.jpg"
+},
+{
+  "id": 8,
+  "title": "Product Photo",
+  "description": "Photo Editing",
+  "work": "src/assets/images/work-8.jpg"
+}
+]

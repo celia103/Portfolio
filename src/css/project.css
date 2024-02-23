@@ -1,0 +1,53 @@
+/* Button style */
+.btn {
+  border-radius: 5px;
+  width: 150px;
+}
+
+.btn-icon {
+  width: 35px;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.btn a {
+  white-space: nowrap;
+  padding: 5px;
+  margin-right: 4px;
+} 
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover,
+a:active {
+  color: #212529; 
+}
+
+/* Different devices style */
+@media (min-width: 768px) {
+  .link-gp {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 767px) {
+  h2, p,
+  .link-gp {
+    text-align: center;
+  }
+
+  .link-gp {
+    justify-content: center;
+  }
+
+  img {
+    width: 310px;
+  }
+} 
