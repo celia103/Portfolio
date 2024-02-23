@@ -2,7 +2,7 @@
 //Home page
 import React from "react";
 import "../css/home.css";
-import profileImage from "../assets/images/photo1.jpg";
+import profileImage from "/assets/images/photo1.jpg";
 import { Link } from "react-router-dom";
 
 function Home() {
