@@ -12,7 +12,6 @@ function Home() {
 				<div className="row">
 					<div className="col-md-6">
 						<main className="d-flex w-100 h-100 p-3 mx-auto flex-column px-3 ms-md-4">
-
 							{/* Text section */}
 							<div>
 								<svg>
@@ -24,14 +23,14 @@ function Home() {
 
 							<p className="lead">
 								<span className="fw-bold">
-									I&rsquo;m Celia, a Hong Kong Graphic Designer, Illustrator, and
-									enthusiastic student in Front-End Web Development based in Greater
-									Manchester, U.K.
+									I&rsquo;m Celia, a graphic designer and illustrator originally from
+									Hong Kong, but now based in Greater Manchester, UK.
 								</span>{" "}
-								My design journey is a continuous learning experience, and I&rsquo;m
-								excited about exploring the possibilities of web development. I aspire
-								to contribute my skills to create engaging and interactive web
-								experiences. Feel free to explore my portfolio.
+								Recently, I completed a Front-End Web Development bootcamp. My design
+								journey is a continuous learning experience, and I&rsquo;m excited about
+								exploring the possibilities of web development. I aspire to contribute
+								my skills to create engaging and interactive web experiences. Feel free
+								to explore my portfolio.
 							</p>
 
 							<p className="lead">
