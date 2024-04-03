@@ -6,6 +6,7 @@ window.global = window;
 import React, { useState } from "react";
 import Lightbox from "react-18-image-lightbox";
 import Design from "../components/Design.jsx";
+import SEO from "../components/SEO";
 import "react-18-image-lightbox/style.css";
 import designs from "../data/designs.json";
 import "../css/design.css";
@@ -15,7 +16,16 @@ function DesignGallery() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className="container-fluid bg-dark text-light">
+		<div className="container-fluid bg-dark text-light content">
+			<SEO
+				title="Celia's Portfolio"
+				name="Celia"
+				description="This page serves as a showcase of
+						my growth in graphic design and illustration. Each experience has taught
+						me valuable lessons and helped me refine my craft and approach."
+				keywords="graphic design, web design, web development, portolio, freelance designer, illustration, illustrator, freelancer, HK freelance designer, UK freelance designer, 平面設計, 插圖, Celia Chan"
+				type="website"
+			/>
 			<div className="container col-xxl-8">
 				{/* Banner Section */}
 				<div className="text-center p-5">
@@ -40,7 +50,7 @@ function DesignGallery() {
 										type="button"
 										className="btn btn-link w-100"
 										onClick={() => {
-                      setPhotoIndex(index);
+											setPhotoIndex(index);
 											setIsOpen(true);
 										}}
 										// autoComplete="off"

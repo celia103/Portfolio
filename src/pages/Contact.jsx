@@ -2,7 +2,7 @@
 import React, { useRef, useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import emailjs from "emailjs-com";
-import { library } from "@fortawesome/fontawesome-svg-core";
+import SEO from "../components/SEO";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -38,13 +38,20 @@ function Contact() {
 	};
 
 	return (
-		<div className="container-fluid bg-dark text-white min-vh-100 d-flex align-items-center">
+		<div className="container-fluid bg-dark text-white d-flex align-items-center content">
+			<SEO
+				title="Celia's Portfolio"
+				name="Celia"
+				description="Welcome to my portfolio. Take a look and feel free to get in touch if you’d like to discuss potential opportunities to work together."
+				keywords="graphic design, web design, web development, portolio, freelance designer, illustration, illustrator, freelancer, HK freelance designer, UK freelance designer, 平面設計, 插圖, Celia Chan"
+				type="website"
+			/>
 			<div className="container col-xxl-8">
 				<div className="row">
 					<div className="col-md-6 mx-auto my-4 px-3">
 						<h2>Get In Touch</h2>
 						{/* CV */}
-						<p className="lead">
+						{/* <p className="lead">
 							You can check out my detailed information by downloading my CV (PDF)
 						</p>
 						<div className="d-flex btnRow">
@@ -56,7 +63,7 @@ function Contact() {
 									Download CV
 								</a>
 							</button>
-						</div>
+						</div> */}
 						<div className="line bg-light"></div>
 
 						{/* Other */}

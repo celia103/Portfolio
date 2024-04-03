@@ -4,10 +4,18 @@ import React from "react";
 import "../css/home.css";
 import profileImage from "/assets/images/photo1.jpg";
 import { Link } from "react-router-dom";
+import SEO from "../components/SEO";
 
 function Home() {
 	return (
 		<div className="container-fluid bg-dark text-white min-vh-100 d-flex align-items-center">
+			<SEO
+				title="Celia's Portfolio"
+				name="Celia"
+				description="Welcome to Celia's Portfolio."
+				keywords="graphic design, web design, web development, portolio, freelance designer, illustration, illustrator, freelancer, HK freelance designer, UK freelance designer, 平面設計, 插圖, Celia Chan"
+				type="website"
+			/>
 			<div className="container col-xxl-8">
 				<div className="row">
 					<div className="col-md-6">
