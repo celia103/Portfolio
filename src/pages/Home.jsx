@@ -8,7 +8,7 @@ import SEO from "../components/SEO";
 
 function Home() {
 	return (
-		<div className="container-fluid bg-dark text-white min-vh-100 d-flex align-items-center">
+		<div className="container-fluid bg-dark text-white d-flex align-items-center">
 			<SEO
 				title="Celia's Portfolio"
 				name="Celia"

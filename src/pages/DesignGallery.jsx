@@ -16,7 +16,7 @@ function DesignGallery() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className="container-fluid bg-dark text-light content">
+		<div className="container-fluid bg-dark text-light">
 			<SEO
 				title="Celia's Portfolio"
 				name="Celia"

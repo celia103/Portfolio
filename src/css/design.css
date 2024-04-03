@@ -1,8 +1,4 @@
 /* design.css */
-.content {
-	height: calc(100vh - 136px);
-}
-
 /* Card style */
 .design-card {
 	display: flex;

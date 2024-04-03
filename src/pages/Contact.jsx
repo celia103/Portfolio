@@ -38,7 +38,7 @@ function Contact() {
 	};
 
 	return (
-		<div className="container-fluid bg-dark text-white d-flex align-items-center content">
+		<div className="container-fluid bg-dark text-white d-flex align-items-center">
 			<SEO
 				title="Celia's Portfolio"
 				name="Celia"

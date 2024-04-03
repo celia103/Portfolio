@@ -10,9 +10,12 @@ import DesignGallery from "./pages/DesignGallery";
 import Contact from "./pages/Contact";
 import Footer from './components/Footer';
 
+import "./css/app.css"
+
 function App() {
   return (
     <Router>
+      <div className="bg-dark vh-100">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,6 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      </div>
     </Router>
   );
 }

@@ -9,6 +9,24 @@ function Project(props) {
 	// Body
 	return (
 		<div className="row mx-auto">
+			{/* Image col */}
+			<div className="col-md-5 order-md-1 mx-auto text-center px-3 pb-3">
+				{props.screenshot && (
+					<img
+						src={props.screenshot}
+						alt={`Screenshot of ${props.title}`}
+						className="img-fluid rounded"
+						style={{ maxWidth: "95%", height: "auto" }}
+					/>
+				)}
+				{props.video && (
+					<video controls width="95%" height="auto" className="rounded">
+						<source src={props.video} type="video/mp4" />
+						Your browser does not support the video tag.
+					</video>
+				)}
+			</div>
+
 			<div className="col-md-7 order-md-2 text-align-center px-3">
 				<h2>{props.title}</h2>
 				<p className="lead">{props.description}</p>
@@ -55,23 +73,7 @@ function Project(props) {
 				</div>
 			</div>
 
-			{/* Image col */}
-			<div className="col-md-5 order-md-1 mx-auto text-center px-3">
-				{props.screenshot && (
-					<img
-						src={props.screenshot}
-						alt={`Screenshot of ${props.title}`}
-						className="img-fluid rounded"
-						style={{ maxWidth: "400px", height: "auto" }}
-					/>
-				)}
-				{props.video && (
-					<video controls width="90%" height="auto" className="rounded">
-						<source src={props.video} type="video/mp4" />
-						Your browser does not support the video tag.
-					</video>
-				)}
-			</div>
+
 		</div>
 	);
 }

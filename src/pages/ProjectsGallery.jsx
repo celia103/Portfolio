@@ -43,8 +43,7 @@ function ProjectsGallery() {
 							repoLink={project.repoLink}
               codePen={project.codePen}
 							video={project.video}							
-						/>
-						<hr className="my-5" />
+						/>						
 					</div>
 				))}
 			</div>
