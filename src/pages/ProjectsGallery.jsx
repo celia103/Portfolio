@@ -29,12 +29,14 @@ function ProjectsGallery() {
 					repositories / CodePen.
 				</p>
 			</div>
-			<hr className="my-5" />
+			
 
 			{/* Projects Section */}
 			<div className="container-fluid bg-dark text-white min-vh-100">
+			
 				{projects.map((project) => (
 					<div key={project.id} className="row">
+						<hr className="my-5" />
 						<Project
 							title={project.title}
 							description={project.description}
