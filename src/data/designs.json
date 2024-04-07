@@ -119,6 +119,15 @@
 
   {
 		"id": 11,
+		"category": "Print Design",
+    "title": "Pizza Box",
+		"type": "Redesign",
+		"description": "--",
+		"workImg1": "/assets/images/work-pizzabox-1.jpg",
+	},
+
+  {
+		"id": 12,
 		"category": "Digital Drawing",
     "title": "Product Photos",
 		"type": "Photo Editing",
