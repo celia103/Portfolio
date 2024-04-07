@@ -1,54 +1,130 @@
 [
+	{
+		"id": 1,
+		"category": "Print Design",
+		"title": "Lineart Cloud Collection",
+		"type": "Wallpaper Design",
+		"description": "Wallpaper collection design for Tat Ming Digital Print Ltd. The design features 12 different cloud formations, each illustrated using textured lines and a unique colour palette. With its diverse range of colours, this collection is adaptable to different interior styles.",
+		"remark": "Mockup finalized by Tat Ming Digital Print Ltd.",
+		"workImg1": "/assets/images/work-wallpaper1-1.jpg",
+		"workImg2": "/assets/images/work-wallpaper1-2.jpg",
+		"workImg3": "/assets/images/work-wallpaper1-3.jpg",
+		"workImg4": "/assets/images/work-wallpaper1-4.jpg"
+	},
+
+	{
+		"id": 2,
+		"category": "Digital Drawing",
+		"title": "A Little Boy's Adventure",
+		"type": "Illustration",
+		"description": "'A Little Boy's Adventure' is an illustration that showcases a young boy's journey as he sets out to explore the wonders of the world around him. It portrays the boy's curiosity and imagination as he embarks on various adventures and encounters magical landscapes along the way.",
+		"remark": "",
+		"workImg1": "/assets/images/work-illustration-1.jpg"
+	},
+
+	{
+		"id": 3,
+		"category": "Print Design",
+		"title": "AFCD Accredited Fish Farm Scheme", 
+		"type": "Magazine Advertisement + Photo Editing",
+		"description": "This magazine advertisement was to promote the scheme's accreditation program through visually appealing content and photo retouching. It aimed to raise awareness about the accreditation scheme and its benefits. My responsibility was to design an advertisement that effectively communicated the scheme's advantages to readers. To achieve this, I carefully retouched the accompanying photos and combined related illustrations in the background to enhance their quality and visual impact. As a result, created this magazine advertisement featuring edited images of accredited fish farms, highlighting the scheme's commitment to quality and sustainability.",
+		"remark": "",
+		"workImg1": "/assets/images/work-ad-1.jpg"
+	},
+
   {
-  "id": 1,
-  "title": "Clouds",
-  "description": "A series of wallpapers designed with clouds",
-  "work": "/assets/images/work-1.jpg"
+		"id": 4,
+		"category": "Print Design",
+		"title": "AFCD Accredited Fish Farm Scheme - I Love Cooking Fish",
+		"type": "HK Tramway Advertisements + Billboard Advertisements + Booklet Design & Typesetting + Photo Editing",
+		"description": "--",
+		"remark": "",
+		"workImg1": "/assets/images/work-fish-1.jpg",
+    "workImg2": "/assets/images/work-fish-2.jpg",
+    "workImg3": "/assets/images/work-fish-4.jpg",
+    "workImg4": "/assets/images/work-fish-3.jpg",
+    "workImg5": "/assets/images/work-fish-5.jpg"
+	},
 
-},
-{
-  "id": 2,
-  "title": "A little boy",
-  "description": "Illustration (Digital Drawing)",
-  "work": "/assets/images/work-2.jpg"
 
-},
-{
-  "id": 3,
-  "title": "AFCD Accredited Fish Farm Scheme",
-  "description": "Magazine Advertisement Design",
-  "work": "/assets/images/work-3.jpg"
-}
-,
-{
-  "id": 4,
-  "title": "Freeze Dried Fruit Snack",
-  "description": "Package Design",
-  "work": "/assets/images/work-4.jpg"
+  {
+		"id": 5,
+		"category": "Print Design",
+		"title": "Freeze Dried Fruit Snack",
+		"type": "Package Design + Information Icon",
+		"description": "--",
+		"remark": "",
+		"workImg1": "/assets/images/work-package1-1.jpg",
+    "workImg2": "/assets/images/work-package1-2.jpg"
+	},
+  
 
-},
-{
-  "id": 5,
-  "title": "Hong Kong Foodways",
-  "description": "Book Cover Design",
-  "work": "/assets/images/work-5.jpg"
-},
-{
-  "id": 6,
-  "title": "Little Goose",
-  "description": "Children's Book Illustration (Digital Drawing)",
-  "work": "/assets/images/work-6.jpg"
-},
-{
-  "id": 7,
-  "title": "Simple English Series",
-  "description": "Children's Book series Illustration (Digital Drawing)",
-  "work": "/assets/images/work-7.jpg"
-},
-{
-  "id": 8,
-  "title": "Product Photo",
-  "description": "Photo Editing",
-  "work": "/assets/images/work-8.jpg"
-}
+	{
+		"id": 5,
+    "category": "Print Design",
+		"title": "Hong Kong Foodways",
+		"type": "Bookcover Design + Illustration",
+		"description": "--",
+		"workImg1": "/assets/images/work-bookcover-1.jpg"
+	},
+
+	{
+		"id": 6,
+    "category": "Digital Drawing",
+		"title": "Little Goose",
+		"type": "Illustration",
+		"description": "--",
+		"workImg1": "/assets/images/work-illustration2-1.jpg"
+	},
+
+	{
+		"id": 7,
+    "category": "Print Design",
+		"title": "Simple English Series",
+		"type": "Illustration + Book Design",
+		"description": "--",
+		"workImg1": "/assets/images/work-book-1.jpg",
+    "workImg2": "/assets/images/work-book-2.jpg"
+	},
+
+	{
+		"id": 8,
+    "category": "Print & Digital Design",
+		"title": "Fatburger",
+		"type": "Menu Design + Icon Illustration",
+		"description": "--",
+		"workImg1": "/assets/images/work-menu-1.jpg",
+    "workImg2": "/assets/images/work-menu-2.jpg"
+	},
+
+	{
+		"id": 9,
+		"category": "Print Design",
+    "title": "Lunar New Year Fai Chun",
+		"type": "Gift Design + Illustration",
+		"description": "--",
+		"workImg1": "/assets/images/work-faichun-1.jpg"
+	},
+
+  {
+		"id": 10,
+		"category": "Print Design",
+    "title": "Asian Business Histories",
+		"type": "Logo Design",
+		"description": "--",
+		"workImg1": "/assets/images/work-logo-1.jpg",
+    "workImg2": "/assets/images/work-logo-2.jpg",
+    "workImg3": "/assets/images/work-logo-3.jpg"
+	},
+
+  {
+		"id": 11,
+		"category": "Digital Drawing",
+    "title": "Product Photos",
+		"type": "Photo Editing",
+		"description": "--",
+		"workImg1": "/assets/images/work-photoretouch-1.jpg",
+    "workImg2": "/assets/images/work-photoretouch-2.jpg"
+	}
 ]
+

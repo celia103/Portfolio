@@ -1,7 +1,4 @@
 /* Form style */
-.content {
-	height: calc(100vh - 136px);
-}
 
 .form-group {
 	margin: 10px 0;

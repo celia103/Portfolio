@@ -1,59 +1,123 @@
 /* design.css */
 /* Card style */
-.design-card {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
+.card {
+	border: 0;
+	cursor: pointer;
 }
 
-.card-img-container {
-	flex: 1;
-	overflow: hidden;
-	height: 100%;
-}
-
-.card-img {
-	width: 100%;
-	height: 100%;
+.card-img-top {
+	height: 18rem;
 	object-fit: cover;
+	border-radius: 5px;
 }
 
-.card-img-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.artwork-card-title {
+	line-height: 1.5rem;
+	font-weight: 600 !important;
+}
+
+.artwork-card-subtitle {
+	color:#b5b5b5;
+}
+
+/* Modal style */
+.modal-body {
+	height: calc(100vh - 150px);
+}
+
+.modal-body {
+	overflow-y: auto;
+}
+
+.modal-body img {
 	width: 100%;
-	height: 100%;
-	opacity: 0;
-	transition: opacity 0.3s ease-in-out;
 }
 
-.overlay-content {
-	text-align: center;
+
+
+.custom-line {
+	border: 0;
+	border-top: 2px solid #ccc;
+	width: 50%;
 }
 
-.overlay-content p {
+.modal-footer button {
+	width: 50px;
+	padding: 0;
+	font-size: 1rem;
+	background-color: transparent;
+	box-sizing: bod.modal-body-box;
+}
+
+.modal-footer svg {
 	margin: 0;
 }
 
-.design-card:hover .card-img-overlay {
-	opacity: 1;
+.remark {
+	font-size: 0.8rem;
 }
 
-.design-card:hover .card-img {
-	filter: brightness(0.5);
+
+@media (min-width: 1200px) {
+	.modal-size {
+		max-width: 70%;
+	}
+	.artwork-modal-container{
+		padding: 0rem 5rem;
+	}
+	.modal-img {
+		height: 22rem;
+		width: auto;
+		object-fit: cover;
+	}
 }
 
-.card-title {
-	font-weight: 700;
+@media (max-width: 1199px) {
+	.modal-size {
+		min-width: 80%;
+	}
+	.modal-img,
+	.modal-img5 {
+		height: 19rem;
+		width: auto;
+		object-fit: cover;
+	}
+} 
+
+@media (max-width: 576px) {
+	.lead {
+		font-size: 1.1rem;
+	}
+		.modal-img,
+		.modal-img5 {
+		height: 16rem;
+		width: auto;
+		object-fit: cover;
+	}
+} 
+
+/* Modal scrollbar Style */
+/* For WebKit browsers (Chrome, Safari) */
+/* Width and height of the scrollbar */
+.modal-body::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
 }
 
-.card-text {
-	font-weight: 400;
+/* Track (background) */
+.modal-body::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Handle (thumb) */
+.modal-body::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+.modal-body::-webkit-scrollbar-thumb:hover {
+	background: #555;
 }
 
 /* Lightbox style*/
@@ -62,12 +126,12 @@
 	pointer-events: none;
 }
 
-.custom-lightbox .lightbox-content {
+.custom-lightbox .lightbox-bod.modal-body {
 	pointer-events: auto;
 } */
 
 /* fix react ligthbox issue in small screens*/
-.ReactModal__Body--open {
+/* .ReactModal__Body--open {
 	.ril__loadingContainer__icon {
 		background-size: contain;
 		* {
@@ -119,4 +183,4 @@
 					width: auto;
 				}
 			}
-}
+} */

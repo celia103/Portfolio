@@ -16,10 +16,10 @@ function ProjectsGallery() {
 				keywords="graphic design, web design, web development, portolio, freelance designer, illustration, illustrator, freelancer, HK freelance designer, UK freelance designer, 平面設計, 插圖, Celia Chan"
 				type="website"
 			/>
-      <div className="container col-xxl-8">
+      <div className="container col-xxl-6">
 			{/* Banner Section */}
-			<div className="text-center p-5">
-				<h2 className="display-5 fw-bold">Web Development Works</h2>
+			<div className="px-3 py-4">
+				<h2 className="text-center">Web Development Works</h2>
 				<p className="lead mb-2">
 					Explore my web development journey through hands-on projects that mark my
 					ongoing learning journey, shaped through bootcamp experiences and personal
@@ -36,7 +36,7 @@ function ProjectsGallery() {
 			
 				{projects.map((project) => (
 					<div key={project.id} className="row">
-						<hr className="my-5" />
+						<hr className="webwork-hr"/>
 						<Project
 							title={project.title}
 							description={project.description}
@@ -44,7 +44,8 @@ function ProjectsGallery() {
 							deployLink={project.deployLink}
 							repoLink={project.repoLink}
               codePen={project.codePen}
-							video={project.video}							
+							video={project.video}
+												
 						/>						
 					</div>
 				))}

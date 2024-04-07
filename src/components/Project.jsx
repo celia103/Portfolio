@@ -10,7 +10,7 @@ function Project(props) {
 	return (
 		<div className="row mx-auto">
 			{/* Image col */}
-			<div className="col-md-5 order-md-1 mx-auto text-center px-3 pb-3">
+			<div className="col-md-5 order-md-1 mx-auto text-center px-3">
 				{props.screenshot && (
 					<img
 						src={props.screenshot}
@@ -27,12 +27,12 @@ function Project(props) {
 				)}
 			</div>
 
-			<div className="col-md-7 order-md-2 text-align-center px-3">
-				<h2>{props.title}</h2>
-				<p className="lead">{props.description}</p>
+			<div className="col-md-7 order-md-2 text-align-center px-3 mt-4">
+				<h4>{props.title}</h4>
+				<p>{props.description}</p>
 
 				{/* button */}
-				<div className="d-flex my-4 fs-5 mx-auto link-gp">
+				<div className="d-flex fs-5 mx-auto link-gp">
 					<div>
 						{props.codePen ? (
 							<button
