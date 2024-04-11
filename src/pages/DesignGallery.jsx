@@ -155,7 +155,7 @@ function DesignGallery() {
 														<img
 															src={designs[selectedDesignIndex].workImg4}
 															alt={designs[selectedDesignIndex].title}
-															className="img-fluib-3"
+															className="img-fluib-3 mb-3"
 														/>
 													</Col>
 												</>
@@ -216,7 +216,7 @@ function DesignGallery() {
 								)}
 							</div>
 
-							<Row className="mb-3">
+							<Row className="my-3">
 								<h4 className="artwork-card-subtitle">
 									{designs[selectedDesignIndex].title}
 								</h4>
@@ -232,6 +232,7 @@ function DesignGallery() {
 								<Col xs={12} md={6}>
 									<h5 className="mb-2 artwork-card-subtitle">Work About</h5>
 									<p>{designs[selectedDesignIndex].description}</p>
+									<p>{designs[selectedDesignIndex].description2}</p>
 									<p className="remark">{designs[selectedDesignIndex].remark}</p>
 								</Col>
 							</Row>

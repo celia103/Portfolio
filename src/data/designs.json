@@ -37,7 +37,7 @@
 		"category": "Print Design",
 		"title": "AFCD Accredited Fish Farm Scheme - I Love Cooking Fish",
 		"type": "HK Tramway Advertisements + Billboard Advertisements + Booklet Design & Typesetting + Photo Editing",
-		"description": "--",
+		"description": "As a designer collaborating with a marketing agency on the 'I Love Cooking Fish' project of the AFCD Accredited Fish Farm Scheme, my main responsibility is to align creative efforts with the project's strategic objectives. I work hand in hand with the marketing team to develop concepts that can effectively convey important messages to the target audience. Through feedback loops, I refine designs to meet campaign goals and integrate marketing insights for optimal impact. Together, we create visually compelling materials such as tramway and billboard advertisements, as well as recipe booklet designs. These materials resonate with consumers and help increase awareness of the AFCD Accredited Fish Farm Scheme, promoting sustainable fish farming and a love for cooking fish from accredited farms.",
 		"remark": "",
 		"workImg1": "/assets/images/work-fish-1.jpg",
     "workImg2": "/assets/images/work-fish-2.jpg",
@@ -52,20 +52,23 @@
 		"category": "Print Design",
 		"title": "Freeze Dried Fruit Snack",
 		"type": "Package Design + Information Icon",
-		"description": "--",
+		"description": "As a graphic designer collaborating with MOMI Ltd on the packaging design for their pet's freeze-dried fruit treats series, my role involves infusing fresh, vibrant colours into the packaging to capture the attention of pet owners. Together with the marketing team, ensure that the package design conveyed the natural, healthy, and fun nature of the product. I crafted a design that incorporated lively illustrations and legible typography, which catches the attention of the customers on the shelf and conveys essential information such as freeze-drying processing, which emphasises the preservation of nutrients. I also included icons illustrating the 'freeze-drying processing', 'more fun in daily living', 'no added sugar, no preservatives and no added colour', as well as 'rich in vitamin C for immunity reinforcement'. Collaboratively designed a marketing package for MOMI Ltd's freeze-dried fruit treats that appeals to health-conscious pet owners and stands out on store shelves, increasing the chances of purchase.",
 		"remark": "",
 		"workImg1": "/assets/images/work-package1-1.jpg",
-    "workImg2": "/assets/images/work-package1-2.jpg"
+    "workImg2": "/assets/images/work-package1-2.jpg",
+		"workImg3": "/assets/images/work-package1-3.jpg"
 	},
   
 
 	{
 		"id": 5,
     "category": "Print Design",
-		"title": "Hong Kong Foodways",
-		"type": "Bookcover Design + Illustration",
-		"description": "--",
-		"workImg1": "/assets/images/work-bookcover-1.jpg"
+		"title": "Bookcover",
+		"type": "Bookcover Design + Illustration + Photo Editing",
+		"description": "I collaborated with the editors of Hong Kong University Press to design book covers for different publications. Here are two samples: The first book, 'Hong Kong Foodways', explores the rich and diverse culinary history of Hong Kong throughout different periods of social development. To represent traditional Hong Kong cuisine and to make the cover appealing to the audience, I chose to feature the iconic clay pot rice dish, which was illustrated in a simple line, hand-drawn style. This cover design emphasises themes of identity and globalisation and invites readers to explore the cultural history of Hong Kong within the pages of the book.",
+		"description2": "The second book, 'Hong Kong Public and Squatter Housing', provides a comprehensive look at the evolution of squatting in the city over two decades. The cover design focused on depicting the evolution of the urban landscape through the use of squatter housing, symbolising the passage of time. To depict the evolution of Hong Kong's housing development over time, I used a combination of a photo effect and black-and-white sketch lines that gradually transitioned into vibrant colours. This approach invites readers to explore the city's social past.",
+		"workImg1": "/assets/images/work-bookcover-1.jpg",
+		"workImg2": "/assets/images/work-bookcover-2.jpg"
 	},
 
 	{
@@ -73,18 +76,21 @@
     "category": "Digital Drawing",
 		"title": "Little Goose",
 		"type": "Illustration",
-		"description": "--",
+		"description": "In this illustration, try to show a heartwarming moment shared between a mother goose and her son in the serene surroundings of a forest. The use of soft colours and gentle lines evokes a cosy and dreamy atmosphere. This illustration aims to showcase the love and bond between a parent and a child, surrounded by the serene beauty of nature. It is designed to fill children's hearts with warmth and joy.",
 		"workImg1": "/assets/images/work-illustration2-1.jpg"
 	},
 
 	{
 		"id": 7,
     "category": "Print Design",
-		"title": "Simple English Series",
+		"title": "Simple English Series, Nursery Rhymes",
 		"type": "Illustration + Book Design",
-		"description": "--",
+		"description": "I have worked as a designer and illustrator for Crystal Publishing Ltd. for two captivating book series that target nursery school children. The 'Simple English Series' features 10 books that combine learning with fun adventures. To engage young readers, I infused the covers with cute and colourful illustrations featuring adorable animals and human characters. I used a story-telling approach to make learning enjoyable for children while providing valuable teaching tools for educators and parents. I also illustrated mini-game activities for learning.",
+		"description2": "In addition, the 'Nursery Rhymes Series' consists of two books starring beloved characters Crystal and Bobby, who guide kids through learning English with rhymes. The covers are designed to be vibrant and joyful, reflecting the lively spirit of the rhymes within. With playful themes and eye-catching illustrations, these covers set the stage for delightful learning experiences that inspire curiosity and creativity in young minds.",
 		"workImg1": "/assets/images/work-book-1.jpg",
-    "workImg2": "/assets/images/work-book-2.jpg"
+    "workImg2": "/assets/images/work-book-2.jpg",
+		"workImg3": "/assets/images/work-book-3.jpg",
+    "workImg4": "/assets/images/work-book-4.jpg"
 	},
 
 	{
@@ -92,7 +98,7 @@
     "category": "Print & Digital Design",
 		"title": "Fatburger",
 		"type": "Menu Design + Icon Illustration",
-		"description": "--",
+		"description": "Menu Design for Fat Burger",
 		"workImg1": "/assets/images/work-menu-1.jpg",
     "workImg2": "/assets/images/work-menu-2.jpg"
 	},
